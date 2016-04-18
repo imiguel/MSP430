@@ -23,8 +23,6 @@ int main(void) {
 	P1IES |= BUTTON;  //interrupcao na transicao 1
 	P1IFG &= ~BUTTON; //certifica que indicador de int esta limpa
 
-	_enable_interrupts(); //habilitar interrupcoes nao mascaraveis
-
 	while(1){
 
 	}
