@@ -30,6 +30,5 @@ int main(void) {
 #pragma vector = PORT1_VECTOR
 
 __interrupt void PORT1_ISR(){
-	P1OUT ^= LED_GREEN;	//alterna LED
-	P1IFG &= ~BUTTON;	//limpa o indicador de interrupt
+	P1OUT ^= LED_GREEN;
 }

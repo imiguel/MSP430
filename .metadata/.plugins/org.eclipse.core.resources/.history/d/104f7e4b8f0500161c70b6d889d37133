@@ -19,17 +19,8 @@ int main(void) {
 	P1REN |= BUTTON;    // activa resistencia de entrada de P1.3
 	P1OUT |= BUTTON;    // resistencia entrada de P1.3 como pullup
 
-
 	while(1){
 
 	}
 
-}
-
-
-#pragma vector = PORT1_VECTOR
-
-__interrupt void PORT1_ISR(){
-	P1OUT ^= LED_GREEN;	//alterna LED
-	P1IFG &= ~BUTTON;	//limpa o indicador de interrupt
 }
