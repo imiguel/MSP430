@@ -21,10 +21,25 @@ int main(void) {
     P1REN |= (BIT4 | BIT3); //enable pull-up/pull-down resistor
     P1OUT |= (BIT4 | BIT3); //configure input resistor as pull-up
 
+    /*P1DIR = BIT6;
+    P1DIR &= ~BIT3;
+    P1REN |= BIT3;
+    P1OUT |= BIT3;
 
+    P1IE = BIT3;	  // Habilita interrupcao no pino P1.3 (botao)
+    P1IES |= BIT3;	  // Interrupcao na transicao 1 -> 0
+    P1IFG &= ~BIT3;   // certifica que indicador de int. esta limpo
+    */
 
+    _enable_interrupts(); // Habilita interrupcoes nao mascaraveis (ativa bit GIE no registo SR)
 
     while(1){
     }
 	
+}
+
+#pragma vector = P1PORT_VECTOR
+__interrupt void P1_ISR(){
+	P1OUT ^= BIT6;   // comuta LED
+	P1IFG &= BIT3;   // limpa indicador interrupcao de P1.3
 }

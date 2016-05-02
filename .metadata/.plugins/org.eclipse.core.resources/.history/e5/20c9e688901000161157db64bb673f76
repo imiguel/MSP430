@@ -22,9 +22,15 @@ int main(void) {
     P1OUT |= (BIT4 | BIT3); //configure input resistor as pull-up
 
 
-
+    _enable_interrupts(); // Habilita interrupcoes nao mascaraveis (ativa bit GIE no registo SR)
 
     while(1){
     }
 	
+}
+
+#pragma vector = P1PORT_VECTOR
+__interrupt void P1_ISR(){
+	P1OUT ^= BIT6;   // comuta LED
+	P1IFG &= BIT3;   // limpa indicador interrupcao de P1.3
 }
