@@ -1450,3 +1450,12 @@ java.nio.channels.ClosedByInterruptException
 	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:144)
 	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:84)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-02 19:21:34.485
+!MESSAGE Indexed 'ToggleLEDWithInterrupt' (1 sources, 5 headers) in 0,109 sec: 173 declarations; 637 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-02 19:23:19.384
+!MESSAGE Indexed 'ToggleLEDWithInterrupt' (1 sources, 5 headers) in 0,109 sec: 173 declarations; 637 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-02 19:23:34.899
+!MESSAGE Indexed 'BlinkLED' (1 sources, 5 headers) in 0,125 sec: 173 declarations; 620 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

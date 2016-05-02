@@ -40,10 +40,10 @@ int main(void) {
 #pragma vector = PORT1_VECTOR;
 __interrupt void PORT1_ISR(){
 	if( P1IFG & BIT3 == 0){
-		P1IFG &= ~BIT3;
+		//
 	}
 
 	if( P1IFG & BIT4 == 0){
-		P1IFG &= ~BIT4;
+		//
 	}
 }
