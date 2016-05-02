@@ -1459,3 +1459,97 @@ java.nio.channels.ClosedByInterruptException
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-05-02 19:23:34.899
 !MESSAGE Indexed 'BlinkLED' (1 sources, 5 headers) in 0,125 sec: 173 declarations; 620 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:31:04.383
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:31:04.619
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:34:40.108
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:34:40.374
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:37:10.966
+!MESSAGE DS_ERROR: MSP430: Can't Initialize Target CPU: **Error**: Serial Communication failed at port: COM65, baud rate:9600!   To use serial monitor, please ensure the following prerequisites are satisfied:  1.	Make sure the cable is plugged into both the target and the host on the right COM port.  2.	Make sure a compatible target side serial monitor is loaded and running on the target device.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:37:11.122
+!MESSAGE DS_ERROR: Can't Initialize Target CPU:
+**Error**: Serial Communication failed at port: COM65, baud rate:9600!
+
+ To use serial monitor, please ensure the following prerequisites are satisfied:
+ 1.	Make sure the cable is plugged into both the target and the host on the right COM port.
+ 2.	Make sure a compatible target side serial monitor is loaded and running on the target device. 
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:38:28.567
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:38:28.754
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:39:42.082
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:39:42.332
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:40:29.991
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:40:30.210
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:44:26.575
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not find MSP-FET430UIF on specified COM port
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:44:26.747
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not find MSP-FET430UIF on specified COM port
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:52:01.739
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not communicate with FET
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:53:24.843
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: Could not communicate with FET
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2016-05-02 19:53:25.122
+!MESSAGE DS_ERROR: Error initializing emulator:
+Could not communicate with FET
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-02 19:53:35.073
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.ti.ccstudio.debug.internal.ui.ProgressManager$DSJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2016-05-02 19:53:35.089
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+!SESSION 2016-05-02 19:53:42.505 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_PT
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2016-05-02 19:53:46.148
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2016-05-02 19:53:46.156
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-05-02 19:54:23.274
+!MESSAGE Indexed 'Buttons' (1 sources, 5 headers) in 0,265 sec: 173 declarations; 642 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)

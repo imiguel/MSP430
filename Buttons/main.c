@@ -32,19 +32,20 @@ int main(void) {
 
 
     while(1){
+    	_low_power_mode_4();
     }
 	
 }
 
 
-#pragma vector = PORT1_VECTOR;
+#pragma vector = PORT1_VECTOR
 __interrupt void PORT1_ISR(){
-	if( P1IFG & BIT3 == 0){
+	if( (P1IFG & BIT3) == BIT3){
 		P1OUT |= BIT6;
 		P1IFG &= ~BIT3;
 	}
 
-	if( P1IFG & BIT4 == 0){
+	if( (P1IFG & BIT4) == BIT4){
 		P1OUT &= ~BIT6;
 		P1IFG &= ~BIT4;
 	}
