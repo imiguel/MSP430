@@ -1,0 +1,13 @@
+#include <msp430.h> 
+
+/*
+ * Workshop Microcontroladores MSP430
+ * ESTiG - Beja
+ * Miguel Rosa, 6129
+ * 02 Maio 2016
+ */
+int main(void) {
+    WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
+	
+	return 0;
+}
