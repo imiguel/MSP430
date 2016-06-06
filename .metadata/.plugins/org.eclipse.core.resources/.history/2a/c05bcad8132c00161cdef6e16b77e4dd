@@ -22,7 +22,7 @@ int main(void) {
     _enable_interrupts();
 
     while(1){
-    	_low_power_mode_4();
+    	_low_power_mode_1();
     }
 
 }
