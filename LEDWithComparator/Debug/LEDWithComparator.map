@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v4.4.5                      
 ******************************************************************************
->> Linked Mon Jun 06 19:01:55 2016
+>> Linked Mon Jun 06 19:08:36 2016
 
 OUTPUT FILE NAME:   <LEDWithComparator.out>
 ENTRY POINT SYMBOL: "_c_int00_noinit_noargs_noexit"  address: 0000f834
