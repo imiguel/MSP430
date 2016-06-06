@@ -22,7 +22,7 @@ int main(void) {
     _enable_interrupts();
 
     while(1){
-    	_low_power_mode_1();
+    	_low_power_mode_1();_
     }
 
 }
@@ -31,6 +31,5 @@ int main(void) {
 __interrupt void ComparatorA_ISR(){
 
 	P1OUT ^= LED_GREEN; //acende led verde
-	CACTL1 ^= CAIES;
 
 }
