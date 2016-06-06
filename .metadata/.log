@@ -1553,3 +1553,28 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-05-02 19:54:23.274
 !MESSAGE Indexed 'Buttons' (1 sources, 5 headers) in 0,265 sec: 173 declarations; 642 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+!SESSION 2016-06-06 18:14:57.595 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_PT
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2016-06-06 18:15:19.284
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2016-06-06 18:15:19.377
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 18:55:39.461
+!MESSAGE Indexed 'LEDWithComparator' (1 sources, 5 headers) in 0,482 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 18:55:40.583
+!MESSAGE Indexed 'LEDWithComparator' (1 sources, 5 headers) in 0,172 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 18:55:41.645
+!MESSAGE Indexed 'LEDWithComparator' (1 sources, 5 headers) in 0,172 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 19:01:56.414
+!MESSAGE Indexed 'Buttons' (1 sources, 5 headers) in 0,187 sec: 173 declarations; 642 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
