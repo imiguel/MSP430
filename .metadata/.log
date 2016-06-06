@@ -1587,3 +1587,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-06-06 19:14:26.146
 !MESSAGE Indexed 'LEDWithComparatorWithInterrupt' (1 sources, 5 headers) in 0,114 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 19:24:59.638
+!MESSAGE Indexed 'ADC10' (1 sources, 5 headers) in 0,166 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 19:25:00.233
+!MESSAGE Indexed 'ADC10' (1 sources, 5 headers) in 0,173 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-06-06 19:25:01.144
+!MESSAGE Indexed 'ADC10' (1 sources, 5 headers) in 0,109 sec: 172 declarations; 602 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
